@@ -16,10 +16,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Michelle Akkermans
+Michelle Akkermans (211)
 
 #### Je startniveau:
-hier je startniveau : blauw
+Blauw
 
 #### Je focus:
 Responsive en surface plane?
