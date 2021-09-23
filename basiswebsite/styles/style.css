@@ -1,0 +1,28 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+body{
+  background-color: #FFCE01;
+  color: black;
+  margin: 8px;
+  font-family: Gotham Rounded SSm, Ariel, sans-serif;
+  display: block;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+
+}
+
+img{
+  width: 320px;
+  height: 440px;
+  border-radius: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
