@@ -22,7 +22,7 @@ Michelle Akkermans (211)
 Blauw
 
 #### Je focus:
-Responsive en surface plane?
+Responsive of surface plane
  
 </details>
 
