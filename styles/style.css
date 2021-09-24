@@ -1,5 +1,136 @@
+/* CSS RESET BRON: http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+
+body{
+  background-color: #FFCE01;
+  color: black;
+  /* margin: 8px; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+}
+
+main, header {
+  /* CSS VARIABLE */
+  margin: 0 12px;
+}
+
+.logo{
+  width: 80px;
+  height: 80px;
+  border-radius: 0%;
+  position: relative;
+  top: 1.3em;
+  left: 16.5em;
+
+}
+
+img{
+  width: 100%;
+}
+
+main{
+  color: white;
+}
+
+h1{
+  padding: .75em;
+  margin: 1em;
+}
+
+h2{
+  padding: .75em;
+  margin: 1em;
+}
+
+ul{
+  margin: 1em;
+}
+
+figure {
+  position: relative;
+
+  width: 100%;
+  height: 440px;
+}
+
+figure + figure {
+  margin-top: 16px;
+}
+/* als 2 figures achter elkaar komen, laat ze dan elkaar ruimte geven. de 2e figure geeft ruimte aan de eerste. */
+
+  figure > picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    display: block;
+  }
+
+    figure > picture img {
+      width: 100%;
+      height: 100%;
+      object-fit: conver;
+      border-radius: 4%;
+    }
+
+  figure > figcaption {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 20px;
+
+  }
 
