@@ -22,7 +22,7 @@ Michelle Akkermans (211)
 Blauw
 
 #### Je focus:
-Responsive of surface plane
+Surface plane
  
 </details>
 
@@ -39,8 +39,8 @@ Responsive of surface plane
 https://www.vangoghmuseum.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Home pagina van de website van het Van Gogh museum.  
+<img src="images/" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
@@ -94,10 +94,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Nette HTML
+- Simpel maar wel goede code. 
+
 
 </details>
 
@@ -127,8 +126,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- Zoek een font dat meer lijkt op het font van de website.
+- Het op github zetten ging een beetje mis eerst, dus dat moet beter
 - nog een punt
 - ...
 
