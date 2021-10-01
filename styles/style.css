@@ -1,6 +1,8 @@
 /* CSS RESET BRON: http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+   
+   Zorgt ervoor dat alle waardes op 0 komen. 
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -30,9 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -47,6 +47,8 @@ table {
 }
 
 
+
+
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
@@ -55,8 +57,7 @@ table {
 body{
   background-color: #FFCE01;
   color: black;
-  /* margin: 8px; */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: block;
 }
 
@@ -66,40 +67,75 @@ main, header {
 }
 
 .logo{
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
   border-radius: 0%;
   position: relative;
-  top: 1.3em;
-  left: 16.5em;
+  top: .4em;
+  left: 16em;
+  right: 1em;
 
 }
 
 img{
   width: 100%;
+  margin: 1.5em;
 }
 
-main{
-  color: white;
-}
 
 h1{
-  padding: .75em;
-  margin: 1em;
+  padding: .35em;
+  margin: .8em;
+  font-size: 32px;
 }
 
 h2{
+  font-size: 24px;
   padding: .75em;
   margin: 1em;
 }
+
+h3{
+  font-size: 18.72px;
+  margin: 1em;
+}
+
+p{
+  font-size: 16px;
+  margin: 1.5em;
+}
+
+a{
+  font-size: 16px;
+  font-weight: bold;
+  margin: .5em;
+}
+
+#boldtext
+{
+  font-weight: bold;
+}
+
+.stickytext{
+font-size: 24px;
+position: -webkit-sticky;
+position: sticky;
+top: .7em;
+background-color: #FFCE01;
+}
+
 
 ul{
   margin: 1em;
 }
 
+
+
+/* Use a <figure> element to mark up a photo in a document, 
+and a <figcaption> element to define a caption for the photo:*/
 figure {
   position: relative;
-
+  color: white;
   width: 100%;
   height: 440px;
 }
@@ -107,7 +143,8 @@ figure {
 figure + figure {
   margin-top: 16px;
 }
-/* als 2 figures achter elkaar komen, laat ze dan elkaar ruimte geven. de 2e figure geeft ruimte aan de eerste. */
+/* als 2 figures achter elkaar komen, laat ze dan elkaar ruimte geven. 
+de 2e figure geeft ruimte aan de eerste. */
 
   figure > picture {
     width: 100%;
@@ -129,8 +166,121 @@ figure + figure {
     left: 0;
     right: 0;
     bottom: 0;
-
     padding: 20px;
-
   }
 
+  
+/* ------ HAMBURGER MENU ------*/
+  #menuToggle
+  {
+    display: block;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    z-index: 1; /* The z-index property specifies the stack order of an element.*/
+  }
+  
+  #menuToggle a
+  {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  
+  #menuToggle input
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0; 
+    z-index: 2; /* and place it over the hamburger */
+  }
+  
+  /* De hamburger zelf */
+  #menuToggle span
+  {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: black;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s 
+              
+    
+  }
+  
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  
+  /* Hamburger naar kruis */
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+  
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*Laat middelste hamburger verdwijnen*/
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  
+  /*binnenkant menu styling*/
+  #menu
+  {
+    position: absolute;
+    width: 800px;
+    height: 900px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    
+    background: #FFCE01;
+    list-style-type: none;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0); /*zorgt dat het menu uit beeld is wanneer hij niet active is.*/
+    transition: transform 0.5s;
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    margin-top: .5em;
+    font-size: 32px;
+  }
+  
+  /*Naar links openen*/
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+  
+  #inmenu
+  {
+    height: 4px;
+    width: 60px;
+  }

@@ -1,90 +1,136 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Michelle Akkermans">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Van Gogh Museum</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="author" content="Michelle Akkermans">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Van Gogh Museum</title>
+
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/logo.png">
+  <script src="scripts/script.js"></script>
 </head>
 
 
 <body>
-    <header>
-        <img class= logo src="images/logo.png">
-        <h1>Ontdek het leven en werk van Vincent van Gogh</h1>
-        <h2>Het Van Gogh Museum is weer open! Bestel je kaartjes met een starttijd online.</h2>
-        <nav>
-            <ul>
-                <li>Bestel tickets</li>
-                <li>Museum steunen? Doneer nu</li>
-            </ul>
-        </nav>
-    </header>
+  <header>
 
-    <main>
-        <figure>
-			<picture>
-				<img src="images/sunflower.webp">
-			</picture>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+        <input type="checkbox" />
 
-			<figcaption>
-				<p>Always on view </p>
-				<h3>Van Gogh's masterpieces</h3>
-				<p>Explore Vincent van Gogh's famous masterpieces in the museum's permanent exhibition.</p>
-			</figcaption>
-		</figure>
+        <!--
+              Some spans to act as a hamburger.
+              -->
+        <span></span>
+        <span></span>
+        <span></span>
 
-		<figure>
-			<picture>
-				<img src="images/wornout.webp">
-			</picture>
-		
-			<figcaption>
-				<p>News</p>
-				<h3>Discovery: new work by Vincent van Gogh</h3>
-				<p>Researchers of the van Gogh Museum have discovered an early drawing by Van Gogh.</p>
-			</figcaption>
-		</figure>
-		
-		<figure>
-			<picture>
-				<img src="images/garden.webp">
-			</picture>
-		
-			<figcaption>
-				<h3>Vincent van Gogh</h3>
-				<p>Learn more about Vincent van Gogh's life, read his letters, explore his paintings and drawings.</p>
-			</figcaption>
-		</figure>
-		
-		<figure>
-			<picture>
-				<img src="images/selfportrait.jpeg">
-			</picture>
-		
-			<figcaption>
-				<h3>Enjoy the Museum from Home</h3>
-				<p>Explore the museum from home. Find plenty of inspiration, enjoy art and stories, or get creative.</p>
-			</figcaption>
-		</figure>
-    
-    </main>
+        <ul id="menu">
+          <a href="#">
+            <li>Menu</li>
+          </a>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>Tickets & Visit</li>
+          </a>
+          <a href="#">
+            <li>Art & Stories</li>
+          </a>
+          <a href="#">
+            <li>About</li>
+          </a>
+          <a href="#">
+            <li>Webstore</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
 
-    <footer>
-        <h2>Ontdek meer over het museum en Vincent van Gogh:</h2>
-        <nav>
-            <ul>
-                <li>Ontdek de colletie</li>
-                <li>Museum steunen? Doneer nu</li>
-                <li>Blijf op de hoogte. Schrijf je in voor de nieuwsbrief</li>
-            </ul>
-        </nav>
-    </footer>
+
+
+    <img class=logo src="images/logo.png">
+    <h1>Discover the Life and Work of Vincent van Gogh</h1>
+    <h2>Welcome back to the Van Gogh Museum! Plan your visit, book tickets online.</h2>
+    <nav>
+      <ul>
+        <li><a href>Book tickets</a></li>
+        <li><a href>Support the museum, donate now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <figure>
+      <picture>
+        <img src="images/sunflower.webp">
+      </picture>
+
+      <figcaption>
+        <p>Always on view </p>
+        <h3>Van Gogh's masterpieces</h3>
+        <p>Explore Vincent van Gogh's famous masterpieces in the museum's permanent exhibition.</p>
+        <a href="collection.html">Explore</a>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <picture>
+        <img src="images/wornout.webp">
+      </picture>
+
+      <figcaption>
+        <p>News</p>
+        <h3>Discovery: new work by Vincent van Gogh</h3>
+        <p>Researchers of the van Gogh Museum have discovered an early drawing by Van Gogh.</p>
+        <a href="collection.html">Discover more</a>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <picture>
+        <img src="images/garden.webp">
+      </picture>
+
+      <figcaption>
+        <h3>Vincent van Gogh</h3>
+        <p>Learn more about Vincent van Gogh's life, read his letters, explore his paintings and drawings.</p>
+        <a href="collection.html">Explore</a>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <picture>
+        <img src="images/selfportrait.jpeg">
+      </picture>
+
+      <figcaption>
+        <h3>Enjoy the Museum from Home</h3>
+        <p>Explore the museum from home. Find plenty of inspiration, enjoy art and stories, or get creative.</p>
+        <a href="collection.html">Explore</a>
+      </figcaption>
+    </figure>
+
+  </main>
+
+  <footer>
+    <h2>Explore more about the museum and Vincent van Gogh:</h2>
+    <nav>
+      <ul>
+        <li><a href>Explore the collection</a></li>
+        <li><a href>Fascinating stories about Vincent van Gogh and our collection</a></li>
+        <li><a href>Support the museum, donate now</a></li>
+      </ul>
+    </nav>
+  </footer>
 
 
 </body>

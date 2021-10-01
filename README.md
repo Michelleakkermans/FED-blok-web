@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Michelle Akkermans (211)
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-Blauw
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-Surface plane
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,11 +36,11 @@ Surface plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.vangoghmuseum.nl
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Home pagina van de website van het Van Gogh museum.  
-<img src="images/" width="375px" alt="omschrijving van de pagina">
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
@@ -94,9 +94,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- Nette HTML
-- Simpel maar wel goede code. 
-
+- punt 1
+- punt 2
+- nog een punt
+- ...
 
 </details>
 
@@ -126,8 +127,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- Zoek een font dat meer lijkt op het font van de website.
-- Het op github zetten ging een beetje mis eerst, dus dat moet beter
+- punt 1
+- punt 2
 - nog een punt
 - ...
 
