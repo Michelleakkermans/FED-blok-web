@@ -40,7 +40,7 @@ https://www.vangoghmuseum.nl/en
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="vangoghpag1.jpg" alt="Home pagina van het Van Gogh museum ">
+<img src="vangoghpag1.png" alt="Home pagina van het Van Gogh museum ">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
