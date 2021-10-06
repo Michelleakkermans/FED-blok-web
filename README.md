@@ -44,7 +44,7 @@ hier de naam van de pagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/vangoghpag2.jpg"  alt="2e pagina van het Van Gogh museum">
+<img src="images/vangoghpag2.png"  alt="2e pagina van het Van Gogh museum">
  
 </details>
 
@@ -58,13 +58,17 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets1" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
+ <img src="images/breakdownschets2_1" alt="breakdown van de hele 2e pagina">
+  <img src="images/breakdownschets2_2" alt="breakdown van de hele 2e pagina">
+  <img src="images/breakdownschets2_3" alt="breakdown van de hele 2e pagina">
 
 </details>
 
