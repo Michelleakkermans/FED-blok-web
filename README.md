@@ -40,7 +40,7 @@ https://www.vangoghmuseum.nl/en
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="vangoghpag1.png" alt="Home pagina van het Van Gogh museum ">
+<img src="images/vangoghpag1.png" alt="Home pagina van het Van Gogh museum ">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
@@ -61,14 +61,14 @@ hier de naam van de pagina
 <img src="images/breakdownschets1" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdown_dynamisch1" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdown_dynamisch2" width="375px" alt="breakdown van nog een dynamisch deel">
 
- <img src="breakdownschets2_1" alt="breakdown van de hele 2e pagina">
-  <img src="breakdownschets2_2" alt="breakdown van de hele 2e pagina">
-  <img src="breakdownschets2_3" alt="breakdown van de hele 2e pagina">
+ <img src="images/breakdownschets2_1" alt="breakdown van de hele 2e pagina">
+  <img src="images/breakdownschets2_2" alt="breakdown van de hele 2e pagina">
+  <img src="images/breakdownschets2_3" alt="breakdown van de hele 2e pagina">
 
 </details>
 
