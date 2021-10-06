@@ -181,8 +181,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP
+2. Dark mode: https://www.geeksforgeeks.org/how-to-make-dark-mode-for-websites-using-html-css-javascript/
+3. css reset: https://meyerweb.com/eric/tools/css/reset/
 
 </details>
