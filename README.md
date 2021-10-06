@@ -66,6 +66,7 @@ hier de naam van de pagina
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/breakdown_dynamisch2.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
+ ### de tweede pagina:
  <img src="images/breakdownschets2_1.png" alt="breakdown van de hele 2e pagina">
   <img src="images/breakdownschets2_2.png" alt="breakdown van de hele 2e pagina">
   <img src="images/breakdownschets2_3.png" alt="breakdown van de hele 2e pagina">
