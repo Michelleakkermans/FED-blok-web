@@ -58,17 +58,17 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschets1" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets1.png" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/breakdown_dynamisch1" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdown_dynamisch1.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/breakdown_dynamisch2" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdown_dynamisch2.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
- <img src="images/breakdownschets2_1" alt="breakdown van de hele 2e pagina">
-  <img src="images/breakdownschets2_2" alt="breakdown van de hele 2e pagina">
-  <img src="images/breakdownschets2_3" alt="breakdown van de hele 2e pagina">
+ <img src="images/breakdownschets2_1.png" alt="breakdown van de hele 2e pagina">
+  <img src="images/breakdownschets2_2.png" alt="breakdown van de hele 2e pagina">
+  <img src="images/breakdownschets2_3.png" alt="breakdown van de hele 2e pagina">
 
 </details>
 
