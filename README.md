@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Michelle Akkermans 
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Surface plane
  
 </details>
 
@@ -36,8 +36,8 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
+https://www.vangoghmuseum.nl/en
+ 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
@@ -78,26 +78,14 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Het opzetten van de basic html ging best prima, natuurlijk was het even inkomen maar dan nog ging het best vlot. 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Mijn HTML was erg netjes
+- Ik had nog niet verder veel css of javascript, maar wat ik had was een goed en net begin. 
 
 </details>
 
@@ -111,26 +99,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Zeker het schrijven van de css was iets wat mij echt wel wat tijd en moeite kostte aangezien ik vrijwel alles en beetje vergeten was. Ook had ik wel moeite met dat sommige delen van de site ingewikkelder waren, waardoor ik ook zeker veel vastgelopen heb. Gelukkig hebben mijn medestudenten mij hier ook mee kunnen helpen. 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Alles zag er nog een beetje simpeltjes uit.
+- Ik moest nog op zoek naar een font dat iets meer leek op die van de site zelf. 
+- Begin optijd aan de 2e pagina.
+
 
 </details>
 
@@ -140,7 +118,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Toegankelijkheidstest (week 4)
 
-Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidstest.
+Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidstest. Dit had ik besproken met de leraar en die zei dat het niet erg was als ik de les miste. 
 
 </details>
 
@@ -154,26 +132,18 @@ Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidste
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb wel veel gestruggled met de surface plane elementen werkend erin te krijgen. Na veel slag en stoot heb ik dan ook maar een paar werkende gekregen. 
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik heb hulp gehad met een probleem met mijn position sticky
+- Ik was de alt text van de images vergeten. 
+- De student assistent heeft mij gewezen op een onnodig div element, want ik dus weg heb kunnen werken. 
+
 
 </details>
 
