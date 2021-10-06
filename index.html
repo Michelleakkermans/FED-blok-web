@@ -17,8 +17,7 @@
 <body>
   <header>
 
-    <nav role="navigation">
-      <div id="menuToggle">
+    <nav role="navigation" id="menuToggle">
         <!--
               A hidden checkbox is used as click reciever,
               so you can use the :checked selector on it.
@@ -32,7 +31,8 @@
           <a href="#">
             <li>Menu</li>
           </a>
-          <a href="#">
+          <span></span>
+          <a href="index.html">
             <li>Home</li>
           </a>
           <a href="#">
@@ -48,72 +48,76 @@
             <li>Webstore</li>
           </a>
         </ul>
-      </div>
     </nav>
 
 
-
-    <img class=logo src="images/logo.png">
+    <img class=logo src="images/logo.png" alt="Logo Van Gogh museum">
+    
     <h1>Discover the Life and Work of Vincent van Gogh</h1>
     <h2>Welcome back to the Van Gogh Museum! Plan your visit, book tickets online.</h2>
     <nav>
       <ul>
-        <li><a href>Book tickets</a></li>
-        <li><a href>Support the museum, donate now</a></li>
+        <li><a href> &#10132; Book tickets</a></li>
+        <li><a href> &#10132; Support the museum, donate now</a></li>
       </ul>
     </nav>
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Dark mode</button>
+    <button onclick="lightMode()">Light Mode</button>
   </header>
 
   <main>
+  
     <figure>
       <picture>
-        <img src="images/sunflower.webp">
+        <img src="images/sunflower.webp" alt="Sunflower painting by Van Gogh">
       </picture>
 
       <figcaption>
         <p>Always on view </p>
         <h3>Van Gogh's masterpieces</h3>
         <p>Explore Vincent van Gogh's famous masterpieces in the museum's permanent exhibition.</p>
-        <a href="collection.html">Explore</a>
+        <a href="collection.html">Explore &#10132;</a>
       </figcaption>
     </figure>
 
     <figure>
       <picture>
-        <img src="images/wornout.webp">
+        <img src="images/wornout.webp" alt="wornout man in a chair, drawing by Van Gogh">
       </picture>
 
       <figcaption>
         <p>News</p>
         <h3>Discovery: new work by Vincent van Gogh</h3>
         <p>Researchers of the van Gogh Museum have discovered an early drawing by Van Gogh.</p>
-        <a href="collection.html">Discover more</a>
+        <a href="collection.html">Discover more &#10132;</a>
       </figcaption>
     </figure>
 
     <figure>
       <picture>
-        <img src="images/garden.webp">
+        <img src="images/garden.webp" alt="Garden drawing by Van Gogh">
       </picture>
 
       <figcaption>
         <h3>Vincent van Gogh</h3>
         <p>Learn more about Vincent van Gogh's life, read his letters, explore his paintings and drawings.</p>
-        <a href="collection.html">Explore</a>
+        <a href="collection.html">Explore &#10132;</a>
       </figcaption>
     </figure>
 
     <figure>
       <picture>
-        <img src="images/selfportrait.jpeg">
+        <img src="images/selfportrait.jpeg" alt="Self portrait of Van Gogh">
       </picture>
 
       <figcaption>
         <h3>Enjoy the Museum from Home</h3>
         <p>Explore the museum from home. Find plenty of inspiration, enjoy art and stories, or get creative.</p>
-        <a href="collection.html">Explore</a>
-      </figcaption>
+        <a href="collection.html">Explore &#10132;</a>
+      </figcaption> 
     </figure>
+  </main>
 
   </main>
 
@@ -121,9 +125,9 @@
     <h2>Explore more about the museum and Vincent van Gogh:</h2>
     <nav>
       <ul>
-        <li><a href>Explore the collection</a></li>
-        <li><a href>Fascinating stories about Vincent van Gogh and our collection</a></li>
-        <li><a href>Support the museum, donate now</a></li>
+        <li><a href> &#10132; Explore the collection</a></li>
+        <li><a href> &#10132; Fascinating stories about Vincent van Gogh and our collection</a></li>
+        <li><a href> &#10132; Support the museum, donate now</a></li>
       </ul>
     </nav>
   </footer>

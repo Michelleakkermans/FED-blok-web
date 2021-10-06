@@ -33,6 +33,9 @@ body {
 	line-height: 1;
 }
 
+ol, ul {
+	list-style: none;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -50,9 +53,11 @@ table {
 
 
 /* CSS Document */
-*, *::after, *::before {
+*{
+  max-width: 100%;
   box-sizing:border-box;  
 }
+
 
 body{
   background-color: #FFCE01;
@@ -61,27 +66,20 @@ body{
   display: block;
 }
 
-main, header {
-  /* CSS VARIABLE */
-  margin: 0 12px;
-}
-
 .logo{
   width: 85px;
   height: 85px;
   border-radius: 0%;
   position: relative;
-  top: .4em;
-  left: 16em;
-  right: 1em;
+  left: 15em;
+  right: 3em;
 
 }
 
 img{
-  width: 100%;
-  margin: 1.5em;
+  margin: 1em;
+  max-width: 100%;
 }
-
 
 h1{
   padding: .35em;
@@ -103,12 +101,14 @@ h3{
 p{
   font-size: 16px;
   margin: 1.5em;
+
 }
 
 a{
   font-size: 16px;
   font-weight: bold;
-  margin: .5em;
+  margin: 1.5em;
+  padding: .5em;
 }
 
 #boldtext
@@ -122,6 +122,7 @@ position: -webkit-sticky;
 position: sticky;
 top: .7em;
 background-color: #FFCE01;
+background-size: cover;
 }
 
 
@@ -191,7 +192,7 @@ de 2e figure geeft ruimte aan de eerste. */
   #menuToggle input
   {
     display: block;
-    width: 40px;
+    width: 30px;
     height: 32px;
     position: absolute;
     top: -7px;
@@ -205,7 +206,7 @@ de 2e figure geeft ruimte aan de eerste. */
   #menuToggle span
   {
     display: block;
-    width: 33px;
+    width: 30px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
@@ -253,7 +254,7 @@ de 2e figure geeft ruimte aan de eerste. */
   #menu
   {
     position: absolute;
-    width: 800px;
+    width: 900px;
     height: 900px;
     margin: -100px 0 0 -50px;
     padding: 50px;
@@ -279,8 +280,160 @@ de 2e figure geeft ruimte aan de eerste. */
     transform: none;
   }
   
-  #inmenu
-  {
-    height: 4px;
-    width: 60px;
+  
+
+/*Darkmode*/
+
+  .dark-mode {
+    background-color:#5f5a43;
+    color: white;
   }
+  .light-mode {
+    background-color: #FFCE01;
+    color: black;
+  }
+  button{
+    margin: 1em;
+    padding: .2em;
+    color: white;
+    background-color: black;
+  }
+
+  /* Formulier*/
+  fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    border-style: solid;
+  }
+  input{
+    margin: 1em;
+  }
+
+  legend{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  section:nth-of-type(6) img{
+    height: 26em;
+    width: 23em;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+section:nth-of-type(7) img{
+  height: 12em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(8) img{
+  height: 26em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(9) img{
+  height: 16em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(10) img{
+  height: 26em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(11) img{
+  height: 26em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(12) img{
+  height: 16em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(13) img{
+  height: 16em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(14) img{
+  height: 16em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(15) img{
+  height: 16em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(16) img{
+  height: 12em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(17) img{
+  height: 12em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section:nth-of-type(18) img{
+  height: 12em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure:nth-of-type(1) img{
+  height: 28em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;;
+}
+figure:nth-of-type(2) img{
+  height: 28em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure:nth-of-type(3) img{
+  height: 28em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure:nth-of-type(4) img{
+  height: 28em;
+  width: 23em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
