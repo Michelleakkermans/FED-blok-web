@@ -123,7 +123,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Toegankelijkheidstest (week 4)
 
-Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidstest. Dit had ik besproken met de leraar en die zei dat het niet erg was als ik de les miste. 
+Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidstest. Dus heb ik de toegankelijkheidstest thuis moeten doen. 
 
 </details>
 
