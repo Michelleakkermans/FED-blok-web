@@ -1,15 +1,17 @@
 // JavaScript Document
 
-function darkMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModetext");
-    element.className = "dark-mode";
-    content.innerText = "Dark Mode is ON";
-  }
-  function lightMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModetext");
-    element.className = "light-mode";
-    content.innerText = "Dark Mode is OFF";
-  }
+document.querySelector('#darkmode').addEventListener('change', function(event){
+  document.querySelector('body').classList.toggle('dark');
+});
+
+/* klikken met de muis op deButton*/
+var deButton = document.querySelector(".Menu");
+
+function doeFormNeerEnOp(){
+    let hetFormulier = document.querySelector("form");
+    hetFormulier.classList.toggle("toonForm");
+}
+
+deButton.addEventListener("click", doeFormNeerEnOp);
+
 
