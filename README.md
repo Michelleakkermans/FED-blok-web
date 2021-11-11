@@ -123,7 +123,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Toegankelijkheidstest (week 4)
 
-Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidstest. Dus heb ik de toegankelijkheidstest thuis moeten doen. 
+Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidstest. Dus heb ik de toegankelijkheidstest thuis moeten doen.
+
+Bevindingen: 
+De leesbaarheid was goed, zeker de contrast in kleuren van de tekst en de achtergrond. 
+Er was goed door mijn pagina te tabben, dus de pagina is te navigeren zonder muis. 
+
+
+
+
 
 </details>
 
