@@ -127,7 +127,11 @@ Helaas kon ik in verband met werk niet in de les zijn bij de toegankelijkheidste
 
 Bevindingen: 
 De leesbaarheid was goed, zeker de contrast in kleuren van de tekst en de achtergrond. 
-Er was goed door mijn pagina te tabben, dus de pagina is te navigeren zonder muis. 
+
+Er was bijna helemaal door mijn pagina te tabben, daar moet ik nog een paar kleine aanpassingen aan doen. 
+
+De test voor moteriek- en concentratie problemen waren beide vrijwel zonder problemen.
+
 
 
 
@@ -195,6 +199,7 @@ hier screenshot(s) van je eindresultaat
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Dark mode: https://codepen.io/gfscott/pen/bJEBPe
+2. Hamburger menu: https://codepen.io/daanketelaars/pen/bGRmNZN
 
 
 </details>
