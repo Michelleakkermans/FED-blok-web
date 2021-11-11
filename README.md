@@ -159,11 +159,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Over het algemeen zag het er netjes uit maar er was ook wel veel niet goed. De feedback besstond uit: 
+ DE WEBSITE: onClick() staan in de HTML, geen addEventListener in javascript, geen CSS variabelen. ID's mag je maar 1x gebruiken op een pagina, CSS selectoren uitzoeken. 3-stap menu! Minder fixeren, minder widths en heights definieren, minder position absolute hanteren. 
+ 
+ PROCES: Toegankelijkheidstoets verslag maken.
 
+ BEGRIP: Beter CSS doorlezen voor je het toepast!
+ 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
@@ -181,8 +186,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. Hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP
-2. Dark mode: https://www.geeksforgeeks.org/how-to-make-dark-mode-for-websites-using-html-css-javascript/
-3. css reset: https://meyerweb.com/eric/tools/css/reset/
+1. Dark mode: https://codepen.io/gfscott/pen/bJEBPe
+
 
 </details>
