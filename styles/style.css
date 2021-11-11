@@ -21,15 +21,6 @@ body{
     display: block;
 }
 
-.logo{
-    width: 85px;
-    height: 85px;
-    border-radius: 0%;
-    position: relative;
-    left: 8em;
-    right: 3em;
-}
-
 h1{
     padding: .35em;
     margin: .8em;
@@ -70,6 +61,16 @@ img{
     margin-right: auto;
 }
 
+.logo{
+  width: 85px;
+  height: 85px;
+  border-radius: 0%;
+  position: absolute;
+  top: .1em;
+  left: 17em;
+  right: 3em;
+}
+
 .boldtext{
     font-weight: bold;
 }
@@ -83,7 +84,29 @@ img{
     background-size: cover;
 }
 
+/*Hamburger menu*/
+.menu {
+  opacity: 0;
+  transition: all .3s ease-in;
+  background-color: var(--colorBackground);
+  padding: 1em;
+  margin: 1em;
+  list-style: none;
+}
+.visible {
+  opacity: 1;
+}
 
+.icon {
+  background-color: #FFCE01;
+  border: none;
+  padding: 1em;
+  margin: .5em;
+  border-radius:.5em;
+}
+
+
+/*Formulier*/
 ul{
     margin: 1em;
 }
@@ -146,44 +169,4 @@ bottom: 0;
 padding: 20px;
 }
 
-.formmenu {
-	background-color:#FFFFFF;
-  
-	
-	/* jouw code hier */
-	position:absolute;
-	left:0;
-	top:0;
-	bottom:0;
-	
-	width:calc(100% - 3em);
-	max-width:25em;
-	transform:translateX(-100%);
-	
-	transition:.5s;
-}
 
-form.toonForm {
-	/* jouw code hier */
-	transform:translateX(0%);
-}
-
-.menu {
- 	/* jouw code hier */
-	position:absolute;
-	height:7em;
-  margin:0; padding:.25em;
-  
-  background-color: var(--colorBackground);
-	
-	top:1em;
-	left:100%;
-	
-	font-size:1em;
-	font-weight:bold;
-	text-align:center;
-	line-height:2em;
-	writing-mode:vertical-lr;
-	
-	cursor:pointer;
-}

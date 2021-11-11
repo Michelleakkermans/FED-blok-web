@@ -15,13 +15,23 @@ function runScript() {
   } else {
       console.log("hoi");
   }}  
-//menu//
 
-var deButton = document.querySelector("menu");
 
-function doeFormNeerEnOp(){
-	let hetFormulier = document.querySelector("formmenu");
-	hetFormulier.classList.toggle("toonForm");
-}
+  var hamMenu = document.querySelector("nav ul");
 
-deButton.addEventListener("click", doeFormNeerEnOp);
+  var hamButton = document.querySelector(".icon");
+  
+  
+  
+  
+  // Click on menu Button
+  
+  hamButton.addEventListener("click", toggleHamburgerMenu);
+  
+  
+  
+  function toggleHamburgerMenu(){
+  
+      hamMenu.classList.toggle("visible");
+  
+  }
