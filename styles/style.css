@@ -145,3 +145,45 @@ right: 0;
 bottom: 0;
 padding: 20px;
 }
+
+.formmenu {
+	background-color:#FFFFFF;
+  
+	
+	/* jouw code hier */
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	
+	width:calc(100% - 3em);
+	max-width:25em;
+	transform:translateX(-100%);
+	
+	transition:.5s;
+}
+
+form.toonForm {
+	/* jouw code hier */
+	transform:translateX(0%);
+}
+
+.menu {
+ 	/* jouw code hier */
+	position:absolute;
+	height:7em;
+  margin:0; padding:.25em;
+  
+  background-color: var(--colorBackground);
+	
+	top:1em;
+	left:100%;
+	
+	font-size:1em;
+	font-weight:bold;
+	text-align:center;
+	line-height:2em;
+	writing-mode:vertical-lr;
+	
+	cursor:pointer;
+}
