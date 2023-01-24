@@ -1,37 +1,22 @@
 // JavaScript Document
+console.log("hi");
 
-//Dark mode//
-window.onload = function() {
-  runScript();
-};
+var deMenuButton = document.querySelector("header button");
+var deNav = document.querySelector("header nav");
 
-function runScript() {
-  let item = document.getElementById('darkmode');
+deMenuButton.addEventListener("click", toggleMenu);
 
-  if(item) {
-      item.addEventListener('change', function(event){
-          document.querySelector('body').classList.toggle('dark');
-      });
-  } else {
-      console.log("hoi");
-  }}  
+function toggleMenu() {
+    deNav.classList.add("open");
+}
 
+// stap 1 - zoek sluiten button op
+var deSluitButton = document.querySelector("header nav button")
 
-  var hamMenu = document.querySelector("nav ul");
+// stap 2 - laat die button luisteren naar kliks
+deSluitButton.addEventListener("click", sluitMenu)
 
-  var hamButton = document.querySelector(".icon");
-  
-  
-  
-  
-  // Click on menu Button
-  
-  hamButton.addEventListener("click", toggleHamburgerMenu);
-  
-  
-  
-  function toggleHamburgerMenu(){
-  
-      hamMenu.classList.toggle("visible");
-  
-  }
+// stap 3 - in de functie verwijder de class van de nav == remove is weggaan en add is toevoegen
+function sluitMenu(){
+  deNav.classList.remove("open");
+}
